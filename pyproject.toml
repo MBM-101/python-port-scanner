@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "localhost-port-scanner"
+version = "1.0.0"
+description = "A localhost-only TCP port status learning tool"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "MBM-101"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]

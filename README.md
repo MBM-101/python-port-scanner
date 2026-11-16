@@ -56,7 +56,7 @@ Tests use mocked sockets and do not scan network hosts.
 
 ## Example output
 
-![Port Scanner Output](screenshots/port-scanner-output.png)
+![Port Scanner Output](port-scanner-output.png)
 
 Note: This tool checks loopback addresses only.
 ```
